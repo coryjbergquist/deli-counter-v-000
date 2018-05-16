@@ -8,7 +8,7 @@ if katz_deli == []
   elsif 
   katz_line = ["The line is currently: "]
   katz_deli.each.with_index(1) { |name, index| 
-  katz_line << "#{index}. #{name}""}
+  katz_line << "#{index}. #{name}"}
   puts katz_line
 
 
