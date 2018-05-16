@@ -17,6 +17,6 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  line = 
-puts "Welcome, #{name}. You are number 1 in line."   
+  line = "1" if katz_deli == nil
+puts "Welcome, #{name}. You are number #{line} in line."   
 end
