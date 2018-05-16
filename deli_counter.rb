@@ -17,7 +17,7 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  line = "1" if katz_deli == []
-  line = katz_deli.each_with_index { |value, index| "#{index}"}
+  katz_deli.each.with_index(1) { |value, index| 
+  line << "Welcome, #{value}. You are number #{index} in line."
 puts "Welcome, #{name}. You are number #{line} in line."   
 end
