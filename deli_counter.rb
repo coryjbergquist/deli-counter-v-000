@@ -12,8 +12,10 @@ def line(katz_deli)
    katz_deli.each.with_index(1) { |value, index|
    katz_line << " #{index}. #{value}"
   }
-  
-  puts katz_line
+    puts katz_line
+end
+end
 
-end
-end
+def take_a_number
+  
+  
