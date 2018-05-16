@@ -17,6 +17,7 @@ end
 end
 
 def take_a_number(katz_deli, name)
- katz_line = katz_deli.count.to_i + 1
+ katz_line = katz_deli.count
+ katz_line = katz_line.to_i
 puts "Welcome, #{name}. You are number #{katz_line} in line."   
 end
