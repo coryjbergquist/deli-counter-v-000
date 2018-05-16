@@ -9,7 +9,7 @@ if katz_deli == []
   katz_line = []
   katz_deli.each.with_index(1) { |name, index| 
   katz_line << "The line is currently: #{index}. #{name}"
-  puts katz_deli
+  puts katz_line
 
 
 end
