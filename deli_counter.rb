@@ -17,7 +17,8 @@ end
 end
 
 def take_a_number(katz_deli, name)
- "Welcome, #{name}. "
+line = katz_deli.count   
+ "Welcome, #{name}. You are number "
   
 puts line
 
