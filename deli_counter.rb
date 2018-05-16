@@ -18,5 +18,6 @@ end
 
 def take_a_number(katz_deli, name)
   line = "1" if katz_deli == nil
+  line = katz_deli
 puts "Welcome, #{name}. You are number #{line} in line."   
 end
