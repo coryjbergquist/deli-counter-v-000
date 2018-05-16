@@ -19,6 +19,6 @@ end
 def take_a_number(katz_deli, name)
   place = ""
   katz_deli.each.with_index(1) { |value, index| 
-  place << "#index" poop }
+  place << "#{index}"  }
 puts "Welcome, #{name}. You are number #{place} in line."   
 end
