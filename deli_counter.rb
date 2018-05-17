@@ -23,5 +23,6 @@ line = katz_deli.count + 1
 end
 
 def now_serving(katz_deli, name)
-puts "#{name}"  
+line = katz_deli.count 
+puts 
 end
