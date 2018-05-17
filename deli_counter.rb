@@ -21,3 +21,7 @@ line = katz_deli.count + 1
  puts "Welcome, #{name}. You are number #{line} in line."
  katz_deli << name
 end
+
+def now_serving(katz_deli, name)
+puts "#{name}"  
+end
