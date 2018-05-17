@@ -29,3 +29,4 @@ if line == log10
   elsif
 puts "Currently serving #{name[0]}"
 end
+end
