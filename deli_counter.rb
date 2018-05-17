@@ -27,8 +27,8 @@ line = name.count
 if line == 0
   puts "There is nobody waiting to be served!" 
   elsif
-name.shift 
-puts "Currently serving #{name}."
+new_name = name.shift 
+puts "Currently serving #{new_name}."
 
 end
 end
