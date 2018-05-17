@@ -28,6 +28,7 @@ if line == 0
   puts "There is nobody waiting to be served!" 
   elsif
  
-puts "Currently serving #{person}."
+puts "Currently serving #{name}."
+name.shift
 end
 end
