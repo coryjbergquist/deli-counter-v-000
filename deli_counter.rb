@@ -25,5 +25,5 @@ end
 def now_serving(name)
 line = name.count 
 puts "There is nobody waiting to be served!" if line == 0
-puts "Currently serving"
+puts "Currently serving #{name[0]}"
 end
