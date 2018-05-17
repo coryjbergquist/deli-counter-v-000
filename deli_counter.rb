@@ -22,7 +22,7 @@ line = katz_deli.count + 1
  katz_deli << name
 end
 
-def now_serving(katz_deli, name)
-line = katz_deli.count 
+def now_serving(name)
+line = name.count 
 puts "There is nobody waiting to be served!" if line == 0
 end
