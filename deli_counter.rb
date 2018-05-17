@@ -24,7 +24,7 @@ end
 
 def now_serving(name)
 line = name.count 
-if line == log10
+if line == 0
   puts "There is nobody waiting to be served!" 
   elsif
 puts "Currently serving #{name[0]}"
