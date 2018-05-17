@@ -27,6 +27,7 @@ line = name.count
 if line == 0
   puts "There is nobody waiting to be served!" 
   elsif
-puts "Currently serving #{name.first}."
+  person = name[0]
+puts "Currently serving #{person}."
 end
 end
